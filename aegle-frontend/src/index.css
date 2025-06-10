@@ -1,0 +1,37 @@
+/* Additional global styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Override Bootstrap defaults */
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+}
+
+/* Utility classes */
+.text-primary-custom {
+  color: var(--primary-color) !important;
+}
+
+.bg-primary-custom {
+  background-color: var(--primary-color) !important;
+}
+
+.border-primary-custom {
+  border-color: var(--primary-color) !important;
+}
